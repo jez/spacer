@@ -1,0 +1,8 @@
+[package]
+name = "spacer"
+version = "0.1.0"
+authors = ["Jake Zimmerman <zimmerman.jake@gmail.com>"]
+
+[dependencies]
+gl = "*"
+glutin = "*"

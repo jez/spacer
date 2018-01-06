@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Dynamically discover canonical path to binary
+BIN_DIR=$(cd "$(dirname "$0")"; pwd)
+
+# Engage
+exec "$BIN_DIR/spacer"
